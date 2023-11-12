@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/inventorymgmtdb
+    username: root
+    password: Purusu@123
+  jpa:
+    show-sql: true
+    generate-ddl: false
+stock:
+  transport-type: petrolllll1
+  sla-days: 45
